@@ -1,0 +1,217 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	font-family: 'Josefin Sans', sans-serif;
+}
+#header {
+	width: 100%;
+	height: 100vh;
+	/*background-color: rgba(160,160,161);*/
+	margin: 0 !important;
+	padding: 0 !important;
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(img/headerbackground.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#navigacija-wrapper {
+	width: 100vw;
+	height: 7vh;
+	background-color: rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(50,50,50,0.6);
+	position: fixed;
+	z-index: 1000;
+}
+#navigacija-wrapper ul {
+	text-align: center;
+	list-style-type: none;
+}
+#navigacija-wrapper li {
+
+	display: inline-block;
+	width: 19%;
+	height: 7vh;
+	padding:20px 20px;
+}
+#navigacija-wrapper li a {
+	color: #FAFAFA;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+#navigacija-wrapper li a:hover {
+	color: #8C2729;
+	transition-delay: 180ms;
+}
+#hero {
+	width: 100%;
+	height: 70vh;
+	background-image: url(img/lobanja.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.row {
+	height: 23vh;
+	border-top: 1px solid rgba(50,50,50,0.6);
+}
+.headerinfo {
+	height: 100%;
+	border-left: 1px solid rgba(50,50,50,0.6);
+}
+.headerinfo i {
+	font-size: 350%;
+	color: #FAFAFA;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.headerinfo h4 {
+	color: #8C2729;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.headerinfo h5 {
+	color: #FAFAFA;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 130%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#onamanaslov {
+	width: 100%;
+	height: 10vh;
+	background-color: rgb(2,2,3);
+}
+#onamanaslov h1 {
+	color: #8C2729;
+	text-align: center;
+	margin: 0 !important;
+	padding-top: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#onama {
+	width: 100%;
+	height: 60vh;
+	border-top: 1px solid rgba(50,50,50,0.6);
+	background-color: rgb(2,2,3);
+	border-bottom: 1px solid rgba(50,50,50,0.6);
+}
+.onamatekst h3 {
+	color: #8C2729;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 300%;
+	margin-top: 100px;
+}
+.onamatekst p {
+	color: rgb(200,200,200);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 130%;
+	padding-right: 10%;
+	padding-left: 20%;
+	height: 100%;
+
+}
+
+.onamaslika {
+	height: 100%;
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)), url(img/studio.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#artist {
+	height: 80vh;
+	width: 100%;
+	background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.6)), url(img/artisthero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.artist img {
+	border-radius: 50%;
+	height: 320px;
+	display: block !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	margin-top: 60px;
+}
+.artist h3 {
+	color: #8C2729; 
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 36px;
+
+}
+.artist p {
+	color: rgb(200,200,200);
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	text-align: justify;
+	padding: 0px 30px;
+	line-height: 25px;
+	margin-top: 40px;
+
+}
+.artist i {
+	font-size: 270%;
+	color: #8C2729; 
+	margin: 30px 15px;
+	display: inline-block;
+	text-align: center;
+}
+.artist i:hover {
+	color: #FAFAFA; 
+}
+.social {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
